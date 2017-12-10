@@ -25,7 +25,8 @@ public class Server {
                 ServerThread serverThread = new ServerThread(socket);
                 //启动线程
                 serverThread.start();
-                count++;//统计客户端的数量
+                //统计客户端的数量
+                count++;
                 System.out.println("客户端的数量:" + count);
                 InetAddress address = socket.getInetAddress();
                 System.out.println("当前客户端的IP:" + address.getHostAddress());
