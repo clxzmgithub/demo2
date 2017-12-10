@@ -11,15 +11,24 @@ public class FibonacciTest {
         System.out.println(result);
     }
 
+    /**
+     * 递归实现 求解n的阶乘
+     * @param n
+     * @return
+     */
     public static long factorial(int n) {
         if (n < 0)
             throw new IllegalArgumentException();
-
         if (n <= 1)
             return 1;
         return n * factorial(n - 1);
     }
 
+    /**
+     * 无递归 求解n的阶乘
+     * @param n
+     * @return
+     */
     public static long factorial2(int n) {
         long result = 1;
         for (int i = n; i > 0 && i <= n; i--) {
