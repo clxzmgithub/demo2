@@ -8,7 +8,7 @@ import java.net.Socket;
 /*
 基于TCP协议的Socket通信，实现用户登陆服务器端
  */
-public class Server {
+public class Server1 {
     public static void main(String[] args) {
         try {
             //1.创建一个服务器端Socket,即ServerSocket,指定绑定的端口,并监听此端口
