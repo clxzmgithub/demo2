@@ -7,6 +7,7 @@ package com.design_pattern.observer;
  */
 public class Client {
     public static void main(String[] args) {
+        //微信公众号
         ConcreteSubject concreteSubject = new ConcreteSubject();
         //创建微信用户
         WeixinUser user1 = new WeixinUser("杨影枫");

@@ -1,4 +1,4 @@
-package com.java8.Generics;
+package com.java8.generics;
 
 /**
  * @author xuzhongming
