@@ -1,0 +1,57 @@
+@startuml
+
+'abstract class AbstractList
+'abstract AbstractCollection
+'interface List
+'interface Collection
+'
+'List <|-- AbstractList
+'Collection <|-- AbstractCollection
+'
+'Collection <|- List
+'AbstractCollection <|- AbstractList
+'AbstractList <|-- ArrayList
+'
+'class ArrayList {
+'Object[] elementData
+'size()
+'}
+'
+'enum TimeUnit {
+'DAYS
+'HOURS
+'MINUTES
+'}
+
+
+'<|--继承
+'*--合成
+'o--聚合
+
+'抽象被观察者
+class Subject {
+attach()
+detach()
+notify()
+}
+
+'抽象观察者
+class Observer {
+update()
+}
+
+'具体被观察者
+class ConcreteSubject {
+
+}
+
+'具体观察者
+class ConcreteObserver {
+
+}
+
+Observer <|-- Subject
+Observer <|-- ConcreteObserver
+Subject <|-- ConcreteSubject
+
+@enduml

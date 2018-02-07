@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>demo2_nomaven_javaproject</artifactId>
+    <artifactId>demo2_maven_javaproject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
