@@ -1,4 +1,4 @@
-package com.design_pattern_meditation.duty_chain_model;
+package com.design_pattern_meditation.duty_chain_model.version1;
 
 import com.google.common.collect.Lists;
 

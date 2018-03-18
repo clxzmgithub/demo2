@@ -1,4 +1,4 @@
-package com.design_pattern_meditation.duty_chain_model;
+package com.design_pattern_meditation.duty_chain_model.version1;
 
 /**
  * Created by xuzhongming on 2018/3/19.
