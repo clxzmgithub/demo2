@@ -16,7 +16,10 @@ public abstract class Handler {
      * 能处理的级别
      */
     private int level = 0;
-    //责任传递，下一个责任人是谁
+
+    /**
+     * 责任传递，下一个责任人是谁
+     */
     private Handler nextHandler;
 
     /**
