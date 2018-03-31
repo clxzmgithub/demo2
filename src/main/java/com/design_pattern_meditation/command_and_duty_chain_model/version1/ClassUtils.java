@@ -12,7 +12,12 @@ public class ClassUtils {
 //        BigDecimal bigDecimal = new BigDecimal(0.95);
 //        int a = bigDecimal.intValue();
 //        System.out.println(a);
-        double a = 32.44 / 35.24;
-        System.out.println(a);
+//        double a = 32.44 / 35.24;
+//        System.out.println(a);
+
+        double a = 7;
+        double b = 6;
+//        String str = "" + a - b + "";
+        System.out.println("aaaa" + (a - b) + "bbbb");
     }
 }
